@@ -1,4 +1,4 @@
-[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange)](https://github.com/GimenezEGT/bibliotecaPandas/blob/main/Case1%20-%20bibliotecaPandas.ipynb) [![Python](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/) [![License](https://img.shields.io/github/license/GimenezEGT/bibliotecaPandas)](https://github.com/GimenezEGT/bibliotecaPandas/blob/main/LICENSE) [![Repo size](https://img.shields.io/github/repo-size/GimenezEGT/bibliotecaPandas)](https://github.com/GimenezEGT/bibliotecaPandas) [![CI](https://github.com/GimenezEGT/bibliotecaPandas/actions/workflows/ci.yml/badge.svg)](https://github.com/GimenezEGT/bibliotecaPandas/actions/workflows/ci.yml)
+[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange)](https://github.com/GimenezEGT/bibliotecaPandas/blob/main/Case1%20-%20bibliotecaPandas.ipynb) [![Python](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/)
 
 # bibliotecaPandas
 
