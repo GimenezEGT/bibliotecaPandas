@@ -1,6 +1,6 @@
-# bibliotecaPandas
+[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange)](https://github.com/GimenezEGT/bibliotecaPandas/blob/main/Case1%20-%20bibliotecaPandas.ipynb) [![Python](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/) [![License](https://img.shields.io/github/license/GimenezEGT/bibliotecaPandas)](https://github.com/GimenezEGT/bibliotecaPandas/blob/main/LICENSE) [![Repo size](https://img.shields.io/github/repo-size/GimenezEGT/bibliotecaPandas)](https://github.com/GimenezEGT/bibliotecaPandas) [![CI](https://github.com/GimenezEGT/bibliotecaPandas/actions/workflows/ci.yml/badge.svg)](https://github.com/GimenezEGT/bibliotecaPandas/actions/workflows/ci.yml)
 
-[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange)](https://github.com/GimenezEGT/bibliotecaPandas/blob/main/Case1%20-%20bibliotecaPandas.ipynb) [![Python](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/)
+# bibliotecaPandas
 
 This repository contains a short case study used during a data training course to practice data analysis with pandas and basic data visualization with seaborn, matplotlib and plotly.
 
@@ -63,22 +63,42 @@ The notebook also lists logical next metrics to compute (mean price by departmen
 
 Seaborn is imported in the notebook (and matplotlib/plotly can be used) to create charts that illustrate distributions by channel, by segment and by department, as well as time series of sales volume by month. Visuals help to identify seasonality, priority departments and differences across channels.
 
+Below are placeholder figures exported to the `images/` folder. Replace them with real exports from the notebook if you run the notebook and save figures.
+
+![Channel distribution](images/channel_distribution.svg)
+
+![Top departments](images/department_top.svg)
+
+![Sales over time](images/sales_over_time.svg)
+
 ## How to run
 
 1. Place `varejo.xlsx` in the same directory as the notebook or upload it to the environment (e.g., Google Colab).
 2. Install dependencies: `pandas`, `seaborn`, `matplotlib`, `plotly`, `openpyxl`.
 3. Open `Case1 - bibliotecaPandas.ipynb` in Jupyter or Colab and run the cells in order.
 
+A `requirements.txt` file is included to reproduce the environment locally.
+
 Example (local environment):
 
-pip install pandas seaborn matplotlib plotly openpyxl
+pip install -r requirements.txt
 
 ## Suggested next steps
 
 - Decide and implement a strategy for missing values in `Preço` and `estado` (drop, impute, or enrich with external data).
 - Compute aggregated metrics: average ticket by department, monthly sales and channel performance, customer repeat purchase rates using `cliente_Log`.
 - Build an interactive dashboard (Plotly Dash or Streamlit) to monitor sales by department and channel.
-- Add a small script or notebook that exports the main charts as images to include in this README.
+- Replace the placeholder figures in `images/` with exported PNG/SVG images generated from the notebook.
+
+---
+
+## Versão em Português / Portuguese version
+
+Este repositório contém um case usado em formação de dados para praticar análise com pandas e visualização de dados com seaborn, matplotlib e plotly.
+
+O notebook `Case1 - bibliotecaPandas.ipynb` analisa o arquivo `varejo.xlsx`, contendo registros de compras de uma loja virtual (canal de venda, preço, departamento, estado do cliente e data). O objetivo é praticar leitura, limpeza e análise exploratória (EDA) e gerar visualizações.
+
+Veja o notebook para o código completo, saídas e gráficos.
 
 ---
 
