@@ -59,18 +59,6 @@ The notebook performs several simple cleaning steps and normalizations:
 
 The notebook also lists logical next metrics to compute (mean price by department, monthly sales counts, average customer income per channel, average age by `bandeira`, etc.).
 
-## Visualization
-
-Seaborn is imported in the notebook (and matplotlib/plotly can be used) to create charts that illustrate distributions by channel, by segment and by department, as well as time series of sales volume by month. Visuals help to identify seasonality, priority departments and differences across channels.
-
-Below are placeholder figures exported to the `images/` folder. Replace them with real exports from the notebook if you run the notebook and save figures.
-
-![Channel distribution](images/channel_distribution.svg)
-
-![Top departments](images/department_top.svg)
-
-![Sales over time](images/sales_over_time.svg)
-
 ## How to run
 
 1. Place `varejo.xlsx` in the same directory as the notebook or upload it to the environment (e.g., Google Colab).
